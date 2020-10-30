@@ -13,17 +13,10 @@
         <p>พวกเขาพบว่าปากกาลูกลื่นธรรมดาไม่สามารถใช้งานในสุญญากาศได้</p>
         <p>พวกเขาจึงจำเป็นต้องลงทุนกว่า 12 ล้านล้านดอลลาร์เเละเวลาอีกกว่าสิบปีในการคิดค้นปากกาที่สามารถใช้เขียนในสุญญากาศได้</p>
         <p>ส่วนประเทศรัสเซียส่งมนุษย์อวกาศขึ้นไปบนอวกาศพร้อมกับดินสอเเท่งเดียว</p>
+        <a href="https://www.youtube.com/">This my favorite link</a>
         <img src="cat.jpg">
         <img src="cat1.jpg">
         <img src="cat2.jpg">
         <br>
-        <a href="https://www.youtube.com/">This my favorite link</a>
-
-        <h2>The unordered list</h2>
-        <ul>
-            <li>Google</li>
-            <li>Yahoo</li>
-            <li>Amazon</li>
-        </ul>
     </body>
 </html>
