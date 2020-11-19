@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
 	<style type="text/css">
 		.card {
-			border-top: solid 5px #D9B0CD;
+			border-top: solid 5px #95C8D7;
 		}
 	</style>
 </head>
@@ -18,7 +18,7 @@
 					<div class="card-body">
 						<div class="row">
 							<div class="col-6"><h1 class="text-monospace">Data</h1></div>
-							<div class="col-6 text-right"><a href="form.php" class="btn btn-warning btn-sm font-weight-bold">ADD</a></div>
+							<div class="col-6 text-right"><a href="form.php" class="btn btn-Info btn-sm font-weight-bold">ADD</a></div>
 						</div>
 						<div class="table-responsive">
 							<?php
@@ -33,10 +33,10 @@
 							<table class="table table-borderless table-hover">
 								<thead>
 									<tr>
-										<th width="150px">Action</th>
 										<th>Name</th>
 										<th>Comment</th>
 										<th>Link</th>
+										<th width="150px">Action</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -44,10 +44,10 @@
 										while($Result = mysqli_fetch_array($res)) {
 									?>
 									<tr>
-										<td><a href="delete.php?ID=<?php echo $Result['ID'];?>" class="btn btn-sm btn-danger mb-2 mb-md-0">DEL</a> <a href="edit.php?ID=<?php echo $Result['ID'];?>" class="btn btn-sm btn-dark">EDIT</a></td>
 										<td><?php echo $Result['Name'];?></td>
 										<td><?php echo $Result['Comment'];?></td>
 										<td><?php echo $Result['Link'];?></td>
+										<td><a href="delete.php?ID=<?php echo $Result['ID'];?>" class="btn btn-sm btn-danger mb-2 mb-md-0">DEL</a> <a href="edit.php?ID=<?php echo $Result['ID'];?>" class="btn btn-sm btn-dark">EDIT</a></td>
 									</tr>
 									<?php
 										}
