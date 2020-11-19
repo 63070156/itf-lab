@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
 	<style type="text/css">
 		.card {
-			border-top: solid 5px #ffc107;
+			border-top: solid 5px #95C8D7;
 		}
 	</style>
 </head>
@@ -37,7 +37,7 @@
 							}
 						?>
 						</h2>
-						<p align="center" class="mt-4 mb-0"><a href="index.php" class="btn btn-sm btn-warning">BACK</a></p>
+						<p align="center" class="mt-4 mb-0"><a href="index.php" class="btn btn-sm btn-dark">BACK</a></p>
 					</div>
 				</div>
 			</div>
