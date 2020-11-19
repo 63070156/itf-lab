@@ -20,7 +20,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
 	<style type="text/css">
 		.card {
-			border-top: solid 5px #ffc107;
+			border-top: solid 5px #95C8D7;
 		}
 	</style>
 </head>
@@ -48,8 +48,8 @@
 								<input type="text" name="link" value="<?php echo $data['Link']; ?>" class="form-control">
 							</div>
 							<div class="text-center">
-								<button type="submit" class="btn btn-sm btn-warning my-3 font-weight-bold">SAVE</button>
-								<a class="btn btn-sm btn-light my-3" href="index.php">CANCLE</a>
+								<button type="submit" class="btn btn-sm btn-info my-3 font-weight-bold">SAVE</button>
+								<a class="btn btn-sm btn-dark my-3" href="index.php">CANCLE</a>
 							</div>
 						</form>
 					</div>
