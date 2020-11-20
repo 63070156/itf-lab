@@ -17,7 +17,7 @@
 				<div class="card shadow">
 					<div class="card-body">
 						<div class="row">
-							<div class="col-6"><h1 class="text-monospace">Data</h1></div>
+							<div class="col-6"><h1 class="text-monospace">Information</h1></div>
 							<div class="col-6 text-right"><a href="form.php" class="btn btn-info btn-sm font-weight-bold">ADD</a></div>
 						</div>
 						<div class="table-responsive">
@@ -34,8 +34,8 @@
 								<thead>
 									<tr>
 										<th>Name</th>
-										<th>Comment</th>
-										<th>Link</th>
+										<th>Personal Information</th>
+										<th>Facebook</th>
 										<th width="150px">Action</th>
 									</tr>
 								</thead>
