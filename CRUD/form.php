@@ -29,8 +29,8 @@
 								<textarea name="comment" class="form-control" rows="5" required></textarea>
 							</div>
 							<div class="form-group">
-								<label>Link</label>
-								<input type="text" name="Facebook" class="form-control">
+								<label>Facebook</label>
+								<input type="text" name="facebook" class="form-control">
 							</div>
 							<div class="text-center">
 								<button type="submit" class="btn btn-sm btn-info my-3 font-weight-bold">SUBMIT</button>
