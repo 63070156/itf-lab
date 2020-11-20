@@ -41,11 +41,11 @@
 							</div>
 							<div class="form-group">
 								<label>Personal Information</label>
-								<textarea name="personal information" class="form-control" rows="5" required><?php echo $data['Comment']; ?></textarea>
+								<textarea name="comment" class="form-control" rows="5" required><?php echo $data['Comment']; ?></textarea>
 							</div>
 							<div class="form-group">
 								<label>Facebook</label>
-								<input type="text" name="facebook" value="<?php echo $data['Link']; ?>" class="form-control">
+								<input type="text" name="link" value="<?php echo $data['Link']; ?>" class="form-control">
 							</div>
 							<div class="text-center">
 								<button type="submit" class="btn btn-sm btn-info my-3 font-weight-bold">SAVE</button>
