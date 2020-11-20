@@ -40,12 +40,12 @@
 								<input type="text" name="name" value="<?php echo $data['Name']; ?>" class="form-control" required>
 							</div>
 							<div class="form-group">
-								<label>Comment</label>
-								<textarea name="comment" class="form-control" rows="5" required><?php echo $data['Comment']; ?></textarea>
+								<label>Personal Information</label>
+								<textarea name="personal information" class="form-control" rows="5" required><?php echo $data['Comment']; ?></textarea>
 							</div>
 							<div class="form-group">
-								<label>Link</label>
-								<input type="text" name="link" value="<?php echo $data['Link']; ?>" class="form-control">
+								<label>Facebook</label>
+								<input type="text" name="facebook" value="<?php echo $data['Link']; ?>" class="form-control">
 							</div>
 							<div class="text-center">
 								<button type="submit" class="btn btn-sm btn-info my-3 font-weight-bold">SAVE</button>
