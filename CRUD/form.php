@@ -30,7 +30,7 @@
 							</div>
 							<div class="form-group">
 								<label>Link</label>
-								<input type="text" name="link" class="form-control">
+								<input type="text" name="Facebook" class="form-control">
 							</div>
 							<div class="text-center">
 								<button type="submit" class="btn btn-sm btn-info my-3 font-weight-bold">SUBMIT</button>
