@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -43,6 +43,7 @@
                         <td><?php echo $Result['weight']; ?></td>
                         <td><?php echo $Result['height']; ?></td>
                         <td><?php echo $Result['bmi']; ?></td>
+                        <td>
                             <a href="delete.php?id=<?php echo $Result['id'];?>" class="btn btn-outline-danger" onclick="return confirm('Confirm data deletion?')">DELETE</a>
                         </td>
                     </tr>
