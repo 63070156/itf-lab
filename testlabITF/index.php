@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+		.card {
+			border-top: solid 5px #95C8D7;
+		}
     <title>home page</title>
 </head>
 
