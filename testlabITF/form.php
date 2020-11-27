@@ -6,7 +6,7 @@ if (isset($_POST['submit'])) {
     $height = $_POST['height'];
     $bmi = $weight/(pow(($height/100),2));
 
-    $sql = "INSERT INTO datainsert (name , weight, height, bmi) VALUES ('$name', '$weight', '$height', '$bmi')";
+    $sql = "INSERT INTO datainsert (name , weight, height, bmi) VALUES ('$name', $weight, $height, $bmi)";
     if (mysqli_query($conn, $sql)) {
         echo "New record created successfully";
         echo "<a href='index.php'>back to home page</a>";
