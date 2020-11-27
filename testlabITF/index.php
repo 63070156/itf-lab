@@ -52,7 +52,7 @@
             }
             ?>
         </table>
-        <button type="button" class="btn btn-outline-warning" onclick="window.location.href='form.php'">เพืิ่มข้อมูล</button>
+        <button type="button" class="btn btn-outline-warning" onclick="window.location.href='form.php'">เพิ่มข้อมูล</button>
 </body>
 
 </html>
